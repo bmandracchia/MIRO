@@ -8,8 +8,8 @@ MIRO (Multiscale Image Restoration through Optimally-sparse representation) is a
 ## Examples ##
 
 ![](Figures/Image_TIRF.png)
-*Noise correction of three-color TIRFM images at different SNRs*. Raw images of a fixed BPAE cell were obtained at camera exposure times of 10 ms (A), 20 ms (B), 50 ms (C), and 100 ms (D). (E-H) The relative images after MIRO processing. Zoomed-in images corresponding to the dashed area for each SNR level before (I,K,M,O) and after processing (J,L,N,P). Scale bars: 5 &mu;m (A), 2 &mu;m (I).
-
+*Noise correction of three-color TIRFM images at different SNRs*. Raw images of a fixed BPAE cell were obtained at camera exposure times of 10 ms (A), 20 ms (B), 50 ms (C), and 100 ms (D). (E-H) The relative images after MIRO processing. Zoomed-in images corresponding to the dashed area for each SNR level before (I,K,M,O) and after processing (J,L,N,P). Scale bars: 5 &mu;m (A), 2 &mu;m (I).  
+&nbsp;  
 
 ![](Figures/Image_Confocal.png)
 *Sub-diffraction-limited confocal microscopy at low illumination power using a GaAsP PMT.* 
@@ -17,12 +17,16 @@ Images of fluorescently-labeled microtubules obtained using a LSCM equipped with
 The laser power between images remained unchanged. In image (B), it is clear that the detrimental effect of low SNR cancels the resolution improvement given by the the closed pinhole. 
 After MIRO processing, the image quality is recovered to restore the expected sub-diffraction-limited resolution (C). 
 (D-I) Zoomed-in images relative to the dashed (D, F, H) and solid (E, G, I) boxed areas of (A-C) as marked in (A). Scale bars: 10 &mu;m (A), 1 &mu;m (D,E).
+&nbsp;  
 
 
 ![](Figures/Image_SIM1.png)
+
 *Noise-controlled SIM reconstructions*. Cross-sections of 3D-reconstructions (*xy* and *yz*) of fluorescently-labeled tubulin filaments: widefield (WF; A,B), SIM reconstruction with regularization parameter fixed to $w=5\times{}10^{-4}$ (Wiener; C,D), noise-controlled true-Wiener (TW; E,F), flat-noise (FN; G,H), and notch-filtered flat-noise SIM reconstruction (NF; I,J), and MIRO-processed Wiener reconstruction (MIRO; K,L).
 All data are reproduced from the datasets in [Smith et al. 2021].
-Scale bars: 4 &mu;m (A), 0.8 &mu;m (A, inset).
+Scale bars: 4 &mu;m (A), 0.8 &mu;m (A, inset).  
+&nbsp;  
+
 
 
 ![](Figures/Image_SIM2.png)
@@ -30,6 +34,7 @@ Scale bars: 4 &mu;m (A), 0.8 &mu;m (A, inset).
 In this case, each frame is first processed individually (microlocal noise correction). 
 Then, non-local similarities across the sample are evaluated in both space and time in order to apply a Wiener filter to groups of similar patches. 
 The goal of this grouping is to allow the use of a higher-dimensionality transform to maximize the input sparsity during the Wiener filtering. Importantly, patches are grouped only if they have a minimum similarity score and no assumption about temporal continuity or sample dynamics is necessary. (G-L) Zoomed-in images of (A-F) corresponding to the area marked by the dashed box in (A). Scale bars: 4 &mu;m (A), 1 &mu;m (G).
+&nbsp;  
 
 
 ## System Requirements ##
