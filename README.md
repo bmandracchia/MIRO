@@ -4,7 +4,7 @@ MIRO
 MIRO (Multiscale Image Restoration through Optimally-sparse representation) is a software for microlocal noise correction designed for fluorescence microscopy. Thanks to the optimal sparsity of the shearlet domain and a physics-based noise estimation, MIRO improves the quality of microscopy images acquired using any of the most common camera sensors. This yields a stable and effective noise correction improving the reliability of image analysis and reconstruction.
 
 ## Citation ##
-Biagio Mandracchia *et al.*, Optimal sparsity allows reliable system-aware restoration of fluorescence microscopy images. *Sci. Adv.* **9**,eadg9245(2023).DOI:[10.1126/sciadv.adg9245](10.1126/sciadv.adg9245).
+Biagio Mandracchia *et al.*, Optimal sparsity allows reliable system-aware restoration of fluorescence microscopy images. *Sci. Adv.* **9**,eadg9245(2023).DOI:[10.1126/sciadv.adg9245](https://www.science.org/doi/10.1126/sciadv.adg9245).
 
 ## Examples ##
 
